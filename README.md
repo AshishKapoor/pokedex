@@ -2,19 +2,12 @@
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
 
-## Creating a project
+## Screenshots
+List of all Pokemons with Search
+![Screenshot from 2021-07-15 16-10-37](https://user-images.githubusercontent.com/5203107/125775279-a2fbfec3-6b0b-498f-a6a7-a72a385f6bb7.png)
+Detail Page
+![Screenshot from 2021-07-15 16-10-55](https://user-images.githubusercontent.com/5203107/125775285-ca51dbac-08be-4b41-b5c3-2976e7016219.png)
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
-```
-
-> Note: the `@next` is temporary
 
 ## Developing
 
