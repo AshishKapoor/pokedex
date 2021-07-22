@@ -1,9 +1,14 @@
+// svelte.config.cjs
+import adapter from '@sveltejs/adapter-static';
 /** @type {import('@sveltejs/kit').Config} */
-const config = {
+
+export default {
 	kit: {
-		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte'
+		target: '#svelte',
+		adapter: adapter({
+			pages: 'build/_app/pages',
+			assets: 'build/_app/assets',
+			fallback: '200.html'
+		})
 	}
 };
-
-export default config;
