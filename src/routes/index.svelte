@@ -25,6 +25,6 @@
 <input class="w-full rounded-md text-lg p-4 border-2 border-gray-200" bind:value={searchTerm} placeholder="Search Pokemon">
 <div class="py-4 grid gap-4 md:grid-cols-2 grid-cols-1">
 	{#each filteredPokemon as pokeman}
-		<Card pokeman={pokeman}/>
+		<Card {pokeman}/>
 	{/each}
 </div>

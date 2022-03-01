@@ -1,7 +1,7 @@
 <script context="module">
   import { getPokemonById } from "../../stores/pokemart";
   export async function load(ctx) {
-    let id = ctx.page.params.id;
+    let id = ctx.params.id;
     const pokeman = await getPokemonById(id);
     return { props: { pokeman }}
   }
